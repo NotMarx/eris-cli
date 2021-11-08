@@ -5,9 +5,17 @@
 
 <br>
 
+# Install GenEris CLI
+
+- **Note:** You'll need to install GenEris globally. See below for installation example.
+
+```bash
+npm install -g generis
+```
+
 ## What is GenEris?
 
-GenEris is a CLI tool that allows you to generate a Discord bot project in a matter of seconds. The library that GenEris **ONLY** support is [Eris](https://github.com/abalabahaha)
+GenEris is a CLI tool that allows you to generate a Discord bot project in a matter of seconds. The library that GenEris **ONLY** support is [Eris](https://github.com/abalabahaha).
 
 ## Why GenEris?
 
