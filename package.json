@@ -1,0 +1,55 @@
+{
+  "name": "generis",
+  "version": "0.1.0",
+  "description": "A Discord Bot Generator",
+  "main": "lib/index.js",
+  "bin": {
+    "eris": "./lib/index.js"
+  },
+  "scripts": {
+    "lint:js": "eslint -c .eslintrc.yml lib",
+    "lint:js:fix": "eslint -c .eslintrc.yml lib --fix && echo \"\u001b[1m\u001b[32mOK\u001b[39m\u001b[22m\" || echo \"\u001b[1m\u001b[31mNot OK\u001b[39m\u001b[22m\"",
+    "lint:ts": "eslint -c .eslintrc.ts.yml *.ts",
+    "lint:ts:fix": "eslint -c .eslintrc.ts.yml *.ts --fix && echo \"\u001b[1m\u001b[32mOK\u001b[39m\u001b[22m\" || echo \"\u001b[1m\u001b[31mNot OK\u001b[39m\u001b[22m\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotMarx/generis.git"
+  },
+  "keywords": [
+    "discord",
+    "eris",
+    "discord-api",
+    "library",
+    "generator",
+    "cli",
+    "generis",
+    "generator"
+  ],
+  "author": "reinnhardt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NotMarx/generis/issues"
+  },
+  "homepage": "https://github.com/NotMarx/generis#readme",
+  "dependencies": {
+    "@types/log-symbols": "^3.0.0",
+    "@types/prompts": "^2.0.6",
+    "chalk": "^4.0.0",
+    "log-symbols": "^4.0.0",
+    "prompts": "^2.3.2"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^13.13.9",
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-sort-class-members": "^1.11.0",
+    "ts-node": "^8.9.1",
+    "typescript": "^3.8.3",
+    "watch": "^1.0.2"
+  }
+}
